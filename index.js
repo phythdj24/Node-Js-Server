@@ -50,9 +50,9 @@ myServer.listen(8000, ()=> console.log("On Port 8000") )
 //         res.end("Homepage")
 //         break;
     
-//       case "/about":
-//         res.end("I am Atharv Dalal")
-//         break;
+      case "/about":
+        res.end("I am Atharv Dalal")
+        break;
     
 //       default:
 //         res.end("404 Not Found")
